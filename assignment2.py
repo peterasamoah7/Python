@@ -168,30 +168,30 @@ print(math_scores)
 # # If option 2 proceed to ask the user the amount they want to withdraw and output the balance.
 # # if the option selected is neither 1 nor 2 output selected option does not exist.
 
-# account_balance = 1000
-# pin_code = 2464
+account_balance = 1000
+pin_code = 2464
 
-# pin_str = input('Enter your pin code: ')
-# pin = int(pin_str)
+pin_str = input('Enter your pin code: ')
+pin = int(pin_str)
 
-# if pin == pin_code:
-#     print('Enter 1 to check balance')
-#     print('Enter 2 to withdraw an amount')
-#     option = input('Enter option : ')
-#     if option == '1':
-#         print(f'Your current balance is {account_balance}')
-#     elif option == '2':
-#         amount_str = input('Enter an amount: ')
-#         amount = int(amount_str)
-#         if amount > account_balance:
-#             print('Insufficent balance')
-#         else:
-#             account_balance = account_balance - amount
-#             print(f'Your new balance is {account_balance}')
-#     else:
-#         print('Invalid option')
-# else:
-#     print('Invalid pin code')
+if pin == pin_code:
+    print('Enter 1 to check balance')
+    print('Enter 2 to withdraw an amount')
+    option = input('Enter option : ')
+    if option == '1':
+        print(f'Your current balance is {account_balance}')
+    elif option == '2':
+        amount_str = input('Enter an amount: ')
+        amount = int(amount_str)
+        if amount > account_balance:
+            print('Insufficent balance')
+        else:
+            account_balance = account_balance - amount
+            print(f'Your new balance is {account_balance}')
+    else:
+        print('Invalid option')
+else:
+    print('Invalid pin code')
 
 # Final Project 1:
 # Write a full bank application using Python (use functions for your solution). Your application should allow the following:
