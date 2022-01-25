@@ -111,3 +111,7 @@ print('Lesson 1 - 19th January 2022')
 #empty_set = set() #create a new set
 #empty_set.add(1) #add a value to a set
 #print(empty_set) #print the set
+
+#--------In Operator--------#
+#print(7 in [1, 2, 3]) #print False
+#print(1 in [1, 2, 3]) #print True
