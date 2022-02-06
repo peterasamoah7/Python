@@ -3,9 +3,6 @@
 # sample_dict = {'a': 100, 'b': 200, 'c': 300}
 
 # 1b. print the value of key 'history' from the dictionary.
-import re
-
-
 sampleDict = {
         "class": {
             "student": {
