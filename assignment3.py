@@ -126,6 +126,6 @@ for x in range(count):
     pcdata = []
     for pc in data['participants']:
         pcdata.append([pc['member_id'], pc['has_paid'], pc['present']])
-    with open(f"participants_{x}.csv", 'w') as p :
+    with open(f"participants_{x}.csv", 'w', newline='') as p :
         wr = csv.writer(p)
         wr.writerows(pcdata)
